@@ -18,7 +18,7 @@ const MobileFilters: React.FC<MobileFiltersProps> = ({
   colors
 }) => {
 
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   const onOpen = () => setOpen(true)
   const onClose = () => setOpen(false)
